@@ -1,0 +1,61 @@
+@mixin payouts_head {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #3e3e3e; 
+}
+@mixin payouts_bg {
+    border: 1px solid #d7d7d7;
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+}
+
+.payouts_section{
+    background-color: #fff;
+    padding: 50px 0px;
+     .payouts_container{
+        .next_payout{
+            margin-top: 15px;
+            @include payouts_bg();
+            
+             .head{
+              @include payouts_head();
+            }
+            .text{
+                font-size: 15px;
+                margin-bottom: 20px;
+            }
+        }
+        .payout_account{
+            margin-top: 15px;
+            @include payouts_bg();
+            
+            .head{
+                @include payouts_head();
+            }
+            .text{
+                font-size: 15px;
+            }
+            .set_account_btn{
+                .primary_btn{
+                    padding: 6px 0px;
+                    min-width: 127px;
+                    margin-top: 10px;
+                    text-align: center;
+                }
+            }
+        }
+        .payout_history{
+           margin-top: 22px;
+           padding: 20px;
+            .head{
+                @include payouts_head();
+            }
+            .text{
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+        }
+     }
+}

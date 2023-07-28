@@ -1,0 +1,71 @@
+.sign_in_section{
+   
+    @media screen and (max-width:767px) {
+        padding: 0px;
+     }
+     .signin_head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            font-size: 15px;
+            .secondary_btn{
+                font-size: 15px;
+                font-weight: 500;
+                padding: 5px 12px;
+                min-width: auto;
+                margin: 0px;
+            }
+         }
+     }
+     hr{
+        margin: 10px 0px;
+     }
+     .form{
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 30px;
+        .google_btn {
+            margin-top: 17px;
+     button {
+                background-color: rgb(66, 133, 244) !important;
+                width: 100%;
+                span{
+                    color: #fff;
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+        .secondary_btn {
+            display: block;
+            margin: 35px auto 0px;
+        }
+        .forgot_pass_div{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 15px;
+            font-size: 14px;
+            a{
+                color: #36bbc2;
+                &:hover{
+                    text-decoration: revert;
+                }
+            }
+           
+        }
+     }
+     .signin_successfully{
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        .signin_username{
+            font-size: 37px;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+     }
+}

@@ -1,0 +1,80 @@
+.join_section {
+    background-color: #fff;
+    padding: 100px;
+     @media screen and (max-width:767px) {
+        padding: 0px;
+     }
+     @media (min-width:992px) and (max-width:1199px) {
+        padding: 40px 20px;
+     }
+
+    .join_content {
+        background-color: #fff;
+        padding: 20px;
+
+        .join_head {
+            font-size: 37px;
+            font-weight: 500;
+            margin-bottom: 21px;
+        }
+
+        .join_subhead {
+            font-size: 23px;
+            margin-bottom: 20px;
+        }
+
+        .join_steps {
+            padding: 5px 0px;
+            font-size: 15px;
+
+            span {
+                padding-right: 12px;
+            }
+        }
+
+        .text {
+            padding: 10px 0px;
+            font-size: 15px;
+        }
+
+        .check_div {
+            padding-top: 5px;
+            font-size: 15px;
+
+            a {
+                text-decoration: underline;
+            }
+
+            input.largerCheckbox {
+                width: 25px;
+                height: 25px;
+                cursor: pointer;
+            }
+            label{
+                cursor: pointer;
+                margin-top:6px;
+            }
+        }
+
+        .join_continue_btn {
+            .disabled_btn {
+                background-color: #dbdbdbe3;
+                border: 1px solid #ffffff;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 10px 15px;
+                min-width: 200px;
+                border-radius: 5px;
+                box-shadow: none;
+                filter: none;
+                color: #fff;
+                cursor: no-drop;
+                 &:hover{
+                    background-color: #dbdbdbe3;
+                border: 1px solid #ffffff;
+                color: #fff;
+                 }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.product_search_wrap {
+    padding: 50px 0px;
+
+    .product_search {
+        padding: 10px 15px;
+        border-radius: 14px;
+        position: relative;
+        z-index: 1;
+        width: 70%;
+        margin: 0px auto;
+
+        button {
+            background-color: #fedc00;
+            border: 1px solid #fedc00;
+            color: #000;
+            font-weight: 600;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        .input-group {
+            height: 40px;
+        }
+
+        .input_field {
+            border-right: none !important;
+        }
+    }
+}

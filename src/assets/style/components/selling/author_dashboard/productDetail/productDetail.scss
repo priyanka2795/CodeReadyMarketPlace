@@ -1,0 +1,11 @@
+@import url("./leftDetails.scss");
+@import url("./rightDetails.scss");
+@import url("./relatedProducts.scss");
+.viewProduct_wrap{
+    padding: 50px 0px;
+}
+@media screen and (max-width: 575px) {
+    .viewProduct_wrap{
+        padding: 20px 0px;
+    } 
+}

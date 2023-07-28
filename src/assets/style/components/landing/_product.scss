@@ -1,0 +1,99 @@
+.product_wrap {
+    padding: 0px 0px 50px;
+    .row{
+        justify-content: center;
+    }
+    .product_title {
+        padding: 20px 0px;
+    }
+
+    .product_card {
+        // margin-top: 20px;
+        border: 1px solid #d1d1d1;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        border-radius: 5px;
+        .product_about {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 0px 10px;
+            .secondary_btn{
+                min-width: auto;
+            }
+        }
+
+        .product_details {
+            padding: 10px;
+
+            .product_live_btn {
+                padding-top: 10px;
+                border-top: 1px solid #d1d1d1;
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+
+                .primary_btn {
+                    // min-width: 162px;
+                }
+                .secondary_btn{
+                    // min-width: 162px;
+                }
+            }
+            .product_details_title{
+                .h4_title{
+                    font-size: 1rem;
+                    text-transform: capitalize;
+                }
+                p{
+                    font-size: 14px;
+                    padding: 5px 0px;
+                }
+                .h3_title{
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .product_img {
+            img {
+                height: 200px;
+                width: 100%;
+                object-fit: fill;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+        }
+
+        &:hover{
+            // box-shadow: 0px 0px 17px 0px rgb(0 0 0 / 20%);
+            box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+            transform: translatey(-4px);
+        }
+    }
+
+    .all_products_btn {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 991px) {
+    // .product_card{
+    //     margin-bottom: 20px;
+    // }
+    .product_about{
+        .secondary_btn{
+            min-width: auto;
+        }
+    }
+    .product_wrap{
+        padding: 0px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .product_card{
+        margin-bottom: 20px;
+    }
+}

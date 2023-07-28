@@ -1,0 +1,30 @@
+.author_header_section{
+    padding: 50px 0px;
+    border-bottom: 1px solid #d5d5d5;
+    background-color: #42f6ff1a;
+    .author_info_div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .author_img{
+                img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                }
+            }
+            .author_name{
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+        .right{
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+@import url("./orderSummary.scss");
+
+.purchaseAccount_wrap {
+    padding: 50px 0px;
+    .container{
+        max-width: 1140px;
+    }
+    .purchaseAccount_title {
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+
+        .purchaseAccount_sign_btn {
+            .secondary_btn {
+                min-width: auto;
+                margin-left: 10px;
+                padding: 5px 10px;
+            }
+        }
+    }
+
+    .google_btn {
+        padding: 10px 0px;
+        button {
+            background-color: rgb(66, 133, 244) !important;
+            width: 100%;
+
+            span {
+                color: #fff;
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    .captcha_wrap{
+        margin-bottom: 20px;
+    }
+    .tnc{
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        padding: 10px 0px;
+        p{
+            font-size: 12px;
+            a{
+                text-decoration: underline;
+            }
+        }
+    }
+    .primary_btn{
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+    }
+    .purchaseAccount_top{
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .purchaseAccount_wrap .purchaseAccount_title{
+        display: block;
+    }
+    .purchaseAccount_sign_btn{
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .purchaseAccount_wrap .purchaseAccount_title .h3_title{
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width:575px) {
+    .purchaseAccount_top{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,60 @@
+.signup_section{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 30px;
+
+    .signup_head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    hr{
+        margin: 10px 0px;
+     }
+     .form{
+        .google_btn {
+            margin-top: 17px;
+     button {
+                background-color: rgb(66, 133, 244) !important;
+                width: 100%;
+                span{
+                    color: #fff;
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+        .account_btn{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .already_account{
+            div{
+                font-size: 15px;
+                // span{
+                //     color:#36bbc2;
+                //     cursor: pointer;
+                // }
+                .secondary_btn{
+                    font-size: 15px;
+                    font-weight: 500;
+                    padding: 5px 12px;
+                    min-width: auto;
+                }
+             }
+        }
+        .tnc{
+            a{
+                color: #36bbc2;
+                font-weight: 600;
+                &:hover{
+                    text-decoration: revert;
+                }
+            }
+        }
+        
+     }
+}

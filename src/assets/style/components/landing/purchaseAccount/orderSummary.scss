@@ -1,0 +1,64 @@
+.orderSummary_wrap {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+
+    .orderSummary_footer {
+        padding-top: 5px;
+        border-top: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .orderSummary_details {
+        border-top: 1px solid #ccc;
+        padding: 10px 0px;
+
+        .orderSummary_about {
+            padding: 5px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            svg {
+                color: #00abb2;
+                cursor: pointer;
+            }
+
+            .pop_btn{
+                background: transparent;
+                border-color: transparent;
+            }
+        }
+
+    }
+
+    .orderSummary_title {
+        padding-bottom: 5px;
+    }
+}
+
+.handling_div {
+   p {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    table {
+        font-size: 11px;
+        margin-top: 7px;
+        margin-bottom: 0rem;
+
+        thead {
+            font-size: 12px;
+            font-weight: 600;
+            color: gray
+        }
+    }
+
+}
+.popover {
+    width: 221px;
+}
